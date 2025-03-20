@@ -1,0 +1,29 @@
+{
+  "name": "ques2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node ./dist/server.js",
+    "dev": "tsc -b && node ./dist/server.js"
+  },
+  "prisma": {
+  "seed": "ts-node prisma/seed.ts"
+},
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.5.0",
+    "@types/axios": "^0.9.36",
+    "@types/dotenv": "^6.1.1",
+    "axios": "^1.8.4",
+    "prisma": "^6.5.0",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1"
+  }
+}
